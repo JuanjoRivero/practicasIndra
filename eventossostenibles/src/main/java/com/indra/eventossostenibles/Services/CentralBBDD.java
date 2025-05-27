@@ -2,9 +2,7 @@ package com.indra.eventossostenibles.Services;
 
 import com.indra.eventossostenibles.Entities.*;
 
-import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class CentralBBDD {
     // ---> BASE DE DATOS <--- \\

@@ -6,9 +6,7 @@ import com.indra.eventossostenibles.Entities.Organizador;
 import com.indra.eventossostenibles.Entities.Usuario;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class MergeInscripciones {
     public void añadirEventosAUsuarios(List<Inscripcion> inscripciones, List<Usuario> usuarios){

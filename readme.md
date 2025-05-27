@@ -57,12 +57,12 @@ Además, el proyecto exige la generación de evidencias gráficas del proceso y 
 ## 4. Programación orientada a objetos
 
 He desarrollado el programa mediante el lenguaje **Java puro (sin Frameworks)**, con módulos **Maven**. He importado diferentes dependencias (que se enumerarás a continuación). La aplicación en principio debía contener las clases **POJO** (Plain Old Java Object), pero no podria desarrollar los conocimientos del curso impartidos por mis profesores, de manera que, para dar el nivel dado por el profesor, realicé una aplicación que gestiona:
-    1. La creación, modificación, eliminación y visualización de **USUARIOS, ORGANIZADORES y EVENTOS**.
-    2. Que los **ORGANIZADORES** puedan crear y organizar los **EVENTOS** concretamente y SOLO podran modificar y eliminar los creados por unos mismos.
-    3. Que los **USUARIOS** puedan apuntarse y desapuntarse a los **EVENTOS** públicos siempre y cuando estén disponibles **(ESTADO = EN CURSO)**
-    4. Estén presentes las relaciones entre entidades.
-    5. Que sea **PERSISTENTE**. Al ser un módulo independiente de *BASE DE DATOS*, he decidido mantener la persistencia mediante archivos JSON y serializando las entidades, teniendo en cuenta que hay atributos que no se pueden serializar por bucle infinito (los **USUARIOS** contienen **EVENTOS** que a su vez contienen los **USUARIOS** unidos).
-    6. Todo gestionado con una interfaz visual por consola.
+  1. La creación, modificación, eliminación y visualización de **USUARIOS, ORGANIZADORES y EVENTOS**.
+  2. Que los **ORGANIZADORES** puedan crear y organizar los **EVENTOS** concretamente y SOLO podran modificar y eliminar los creados por unos mismos.
+  3. Que los **USUARIOS** puedan apuntarse y desapuntarse a los **EVENTOS** públicos siempre y cuando estén disponibles **(ESTADO = EN CURSO)**
+  4. Estén presentes las relaciones entre entidades.
+  5. Que sea **PERSISTENTE**. Al ser un módulo independiente de *BASE DE DATOS*, he decidido mantener la persistencia mediante archivos JSON y serializando las entidades, teniendo en cuenta que hay atributos que no se pueden serializar por bucle infinito (los **USUARIOS** contienen **EVENTOS** que a su vez contienen los **USUARIOS** unidos).
+  6. Todo gestionado con una interfaz visual por consola.
 
 Las clases creadas son las siguientes:
 
