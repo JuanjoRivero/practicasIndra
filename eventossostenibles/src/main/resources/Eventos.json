@@ -1,0 +1,40 @@
+[
+  {
+    "idEvento": 0,
+    "estado": "ACTIVO",
+    "categoria": "CONFERENCIA",
+    "nombre": "Conferencia de Java",
+    "fecha": "2025-05-30",
+    "ubicacion": {
+      "tipoUbicacion": "PRESENCIAL",
+      "ubicacion": "Calle Principal 123"
+    },
+    "duracion": 2.5,
+    "organizador": {
+      "idOrganizador": 0,
+      "nombre": "Juan Pérez",
+      "correo": "juan@email.com",
+      "telefono": 123456789,
+      "contraseña": "pass123"
+    }
+  },
+  {
+    "idEvento": 1,
+    "estado": "ACTIVO",
+    "categoria": "TALLER",
+    "nombre": "Taller de Programación",
+    "fecha": "2025-06-06",
+    "ubicacion": {
+      "tipoUbicacion": "PRESENCIAL",
+      "ubicacion": "Avenida Central 456"
+    },
+    "duracion": 4.0,
+    "organizador": {
+      "idOrganizador": 1,
+      "nombre": "María García",
+      "correo": "maria@email.com",
+      "telefono": 987654321,
+      "contraseña": "pass456"
+    }
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "idUsuario": 0,
+    "nombre": "Carlos López",
+    "correo": "carlos@email.com",
+    "telefono": 111222333,
+    "contraseña": "pass1"
+  },
+  {
+    "idUsuario": 1,
+    "nombre": "Ana Martínez",
+    "correo": "ana@email.com",
+    "telefono": 444555666,
+    "contraseña": "pass2"
+  },
+  {
+    "idUsuario": 2,
+    "nombre": "Pedro Sánchez",
+    "correo": "pedro@email.com",
+    "telefono": 777888999,
+    "contraseña": "pass3"
+  },
+  {
+    "idUsuario": 3,
+    "nombre": "Laura Torres",
+    "correo": "laura@email.com",
+    "telefono": 123789456,
+    "contraseña": "pass4"
+  },
+  {
+    "idUsuario": 4,
+    "nombre": "Miguel Ruiz",
+    "correo": "miguel@email.com",
+    "telefono": 456123789,
+    "contraseña": "pass5"
+  }
+]

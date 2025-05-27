@@ -1,0 +1,32 @@
+[
+  {
+    "idInscripcion": 0,
+    "usuario": {
+      "idUsuario": 2,
+      "nombre": "Pedro Sánchez",
+      "correo": "pedro@email.com",
+      "telefono": 777888999,
+      "contraseña": "pass3"
+    },
+    "evento": {
+      "idEvento": 0,
+      "estado": "ACTIVO",
+      "categoria": "CONFERENCIA",
+      "nombre": "Conferencia de Java",
+      "fecha": "2025-05-30",
+      "ubicacion": {
+        "tipoUbicacion": "PRESENCIAL",
+        "ubicacion": "Calle Principal 123"
+      },
+      "duracion": 2.5,
+      "organizador": {
+        "idOrganizador": 0,
+        "nombre": "Juan Pérez",
+        "correo": "juan@email.com",
+        "telefono": 123456789,
+        "contraseña": "pass123"
+      }
+    },
+    "fechaInscripcion": "2025-05-26"
+  }
+]

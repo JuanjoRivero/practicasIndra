@@ -1,0 +1,16 @@
+[
+  {
+    "idOrganizador": 0,
+    "nombre": "Juan Pérez",
+    "correo": "juan@email.com",
+    "telefono": 123456789,
+    "contraseña": "pass123"
+  },
+  {
+    "idOrganizador": 1,
+    "nombre": "María García",
+    "correo": "maria@email.com",
+    "telefono": 987654321,
+    "contraseña": "pass456"
+  }
+]
