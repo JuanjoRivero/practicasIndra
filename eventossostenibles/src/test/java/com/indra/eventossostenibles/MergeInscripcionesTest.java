@@ -52,7 +52,7 @@ class MergeInscripcionesTest {
         // Probar con eventosPresentes null
         usuarios.forEach(u -> u.setEventosPresentes(null));
         
-        merger.añadirEventosAUsuarios(inscripciones, eventos, usuarios);
+        merger.añadirEventosAUsuarios(inscripciones, usuarios);
         // Verificar que cada usuario tiene el evento correcto
         assertEquals(1, usuarios.get(0).getEventosPresentes().size());
         assertEquals(1, usuarios.get(1).getEventosPresentes().size());
@@ -103,7 +103,7 @@ class MergeInscripcionesTest {
     void añadirEventosAUsuarios_ListaVacia_NoDeberiaLanzarExcepcion() {
         List<Inscripcion> inscripcionesVacias = new ArrayList<>();
         assertDoesNotThrow(() -> 
-            merger.añadirEventosAUsuarios(inscripcionesVacias, eventos, usuarios)
+            merger.añadirEventosAUsuarios(inscripcionesVacias, usuarios)
         );
     }
 

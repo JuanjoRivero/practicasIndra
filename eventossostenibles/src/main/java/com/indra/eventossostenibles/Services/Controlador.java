@@ -532,7 +532,6 @@ public class Controlador {
 
 
         // ---> DETERMINAR TIPO Y OBTENER DATOS ACTUALES <--- \\
-        String tipo = (persona instanceof Usuario) ? "USUARIO" : "ORGANIZADOR";
         String nombreActual = (persona instanceof Usuario) ?
                 ((Usuario) persona).getNombre() :
                 ((Organizador) persona).getNombre();
