@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Eventos</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Eventos Disponibles</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Listado de eventos</h2>
+            <div class="filtro-eventos">
+                <label for="filtroTipo">Filtrar por tipo:</label>
+                <select id="filtroTipo">
+                    <option value="todos">Todos</option>
+                    <option value="taller">Taller</option>
+                    <option value="conferencia">Conferencia</option>
+                    <option value="actividad">Actividad</option>
+                </select>
+                <button id="btnFiltrar" type="button">Filtrar</button>
+            </div>
+            <div class="eventos-lista">
+                <!-- Evento 1 -->
+                <div class="evento" data-tipo="actividad" data-fecha="2025-06-10">
+                    <img src="../images/evento7.jpg" alt="Actividad Escape Room">
+                    <div class="evento-info">
+                        <div class="evento-nombre"><a href="evento7.html">Escape Room Educativo</a></div>
+                        <div class="evento-descripcion">Pon a prueba tus conocimientos y habilidades en equipo.</div>
+                        <div class="evento-tipo-fecha">
+                            <span class="tipo actividad">Actividad</span> | 10/06/2025
+                        </div>
+                        <div class="evento-modalidad">Presencial - Avda. Villanueva, 06005 Badajoz</div>
+                    </div>
+                </div>
+                <!-- Evento 2 -->
+                <div class="evento" data-tipo="taller" data-fecha="2025-06-12">
+                    <img src="../images/evento1.jpg" alt="Taller de Robótica">
+                    <div class="evento-info">
+                        <div class="evento-nombre"><a href="evento1.html">Taller de Robótica Educativa</a></div>
+                        <div class="evento-descripcion">Aprende a programar y montar robots desde cero.</div>
+                        <div class="evento-tipo-fecha">
+                            <span class="tipo taller">Taller</span> | 12/06/2025
+                        </div>
+                        <div class="evento-modalidad">Presencial - Avda. de Elvas, 06006 Badajoz</div>
+                    </div>
+                </div>
+                <!-- Evento 3 -->
+                <div class="evento" data-tipo="conferencia" data-fecha="2025-06-13">
+                    <img src="../images/evento5.jpg" alt="Conferencia IA">
+                    <div class="evento-info">
+                        <div class="evento-nombre"><a href="evento5.html">Conferencia: Inteligencia Artificial</a></div>
+                        <div class="evento-descripcion">Expertos debaten sobre el futuro de la IA en la educación.</div>
+                        <div class="evento-tipo-fecha">
+                            <span class="tipo conferencia">Conferencia</span> | 13/06/2025
+                        </div>
+                        <div class="evento-modalidad">Online</div>
+                    </div>
+                </div>
+                <!-- Evento 4 -->
+                <div class="evento" data-tipo="taller" data-fecha="2025-06-15">
+                    <img src="../images/evento2.jpg" alt="Taller de Ciberseguridad">
+                    <div class="evento-info">
+                        <div class="evento-nombre"><a href="evento2.html">Taller de Ciberseguridad</a></div>
+                        <div class="evento-descripcion">Descubre cómo proteger tus dispositivos y datos.</div>
+                        <div class="evento-tipo-fecha">
+                            <span class="tipo taller">Taller</span> | 15/06/2025
+                        </div>
+                        <div class="evento-modalidad">Online</div>
+                    </div>
+                </div>
+                <!-- Evento 5 -->
+                <div class="evento" data-tipo="actividad" data-fecha="2025-06-17">
+                    <img src="../images/evento8.jpg" alt="Actividad Feria de Proyectos">
+                    <div class="evento-info">
+                        <div class="evento-nombre"><a href="evento8.html">Feria de Proyectos FP</a></div>
+                        <div class="evento-descripcion">Exposición de los mejores proyectos de los alumnos.</div>
+                        <div class="evento-tipo-fecha">
+                            <span class="tipo actividad">Actividad</span> | 17/06/2025
+                        </div>
+                        <div class="evento-modalidad">Presencial - C/ Ricardo Carapeto Zambrano, 06008 Badajoz</div>
+                    </div>
+                </div>
+                <!-- Evento 6 -->
+                <div class="evento" data-tipo="taller" data-fecha="2025-06-18">
+                    <img src="../images/evento3.jpg" alt="Taller de Impresión 3D">
+                    <div class="evento-info">
+                        <div class="evento-nombre"><a href="evento3.html">Taller de Impresión 3D</a></div>
+                        <div class="evento-descripcion">Crea tus propios diseños y llévalos a la realidad.</div>
+                        <div class="evento-tipo-fecha">
+                            <span class="tipo taller">Taller</span> | 18/06/2025
+                        </div>
+                        <div class="evento-modalidad">Presencial - C/ Menacho, 06001 Badajoz</div>
+                    </div>
+                </div>
+                <!-- Evento 7 -->
+                <div class="evento" data-tipo="conferencia" data-fecha="2025-06-20">
+                    <img src="../images/evento6.jpg" alt="Conferencia Emprendimiento">
+                    <div class="evento-info">
+                        <div class="evento-nombre"><a href="evento6.html">Conferencia: Emprendimiento Joven</a></div>
+                        <div class="evento-descripcion">Historias inspiradoras de jóvenes empresarios.</div>
+                        <div class="evento-tipo-fecha">
+                            <span class="tipo conferencia">Conferencia</span> | 20/06/2025
+                        </div>
+                        <div class="evento-modalidad">Presencial - C/ Godofredo Ortega y Muñoz, 06011 Badajoz</div>
+                    </div>
+                </div>
+                <!-- Evento 8 -->
+                <div class="evento" data-tipo="actividad" data-fecha="2025-06-22">
+                    <img src="../images/evento9.jpg" alt="Actividad Gymkana Tecnológica">
+                    <div class="evento-info">
+                        <div class="evento-nombre"><a href="evento9.html">Gymkana Tecnológica</a></div>
+                        <div class="evento-descripcion">Supera retos tecnológicos en diferentes pruebas.</div>
+                        <div class="evento-tipo-fecha">
+                            <span class="tipo actividad">Actividad</span> | 22/06/2025
+                        </div>
+                        <div class="evento-modalidad">Presencial - C/ Francisco Pizarro, 06003 Badajoz</div>
+                    </div>
+                </div>
+                <!-- Evento 9 -->
+                <div class="evento" data-tipo="taller" data-fecha="2025-06-25">
+                    <img src="../images/evento4.jpg" alt="Taller de Arduino">
+                    <div class="evento-info">
+                        <div class="evento-nombre"><a href="evento4.html">Taller de Arduino</a></div>
+                        <div class="evento-descripcion">Iníciate en la electrónica y la programación con Arduino.</div>
+                        <div class="evento-tipo-fecha">
+                            <span class="tipo taller">Taller</span> | 25/06/2025
+                        </div>
+                        <div class="evento-modalidad">Presencial - Plaza Alta, 06002 Badajoz</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Portal de Eventos FP  |  Juan José Rivero Lorido</p>
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>
