@@ -84,7 +84,7 @@ El portal web tiene como objetivo facilitar la consulta y gestión de eventos re
 
 ## 4. Programación orientada a objetos
 
-He desarrollado el programa mediante el lenguaje **Java puro (sin Frameworks)**, con módulos **Maven**. He importado diferentes dependencias (que se enumerarás a continuación). La aplicación en principio debía contener las clases **POJO** (Plain Old Java Object), pero no podria desarrollar los conocimientos del curso impartidos por mis profesores, de manera que, para dar el nivel dado por el profesor, realicé una aplicación que gestiona:
+He desarrollado el programa mediante el lenguaje **Java puro (sin Frameworks)**, con módulos **Maven**. He importado diferentes dependencias (que se enumerarán a continuación). La aplicación en principio debía contener las clases **POJO** (Plain Old Java Object), pero no podria desarrollar los conocimientos del curso impartidos por mis profesores, de manera que, para dar el nivel dado por el profesor, realicé una aplicación que gestiona:
   1. La creación, modificación, eliminación y visualización de **USUARIOS, ORGANIZADORES y EVENTOS**.
   2. Que los **ORGANIZADORES** puedan crear y organizar los **EVENTOS** concretamente y SOLO podran modificar y eliminar los creados por unos mismos.
   3. Que los **USUARIOS** puedan apuntarse y desapuntarse a los **EVENTOS** públicos siempre y cuando estén disponibles **(ESTADO = EN CURSO)**
