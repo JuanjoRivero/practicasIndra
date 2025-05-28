@@ -82,7 +82,7 @@ Para garantizar la correcta gestión y persistencia de los datos, he diseñado u
 
 A continuación se muestra el diagrama ER que representa la estructura lógica de la base de datos. En él se pueden observar las entidades principales (Usuarios, Organizadores, Eventos, Inscripciones, Categorías y Ubicaciones) y las relaciones entre ellas:
 
-![Diagrama ER](doc/diagrama-er.png)
+![Diagrama ER](sql/diagrama-er.png)
 
 - **Usuarios** y **Organizadores**: Se gestionan como entidades separadas, cada una con sus propios atributos y restricciones. Los organizadores son los responsables de crear eventos, mientras que los usuarios pueden inscribirse en ellos.
 - **Eventos**: Cada evento está asociado a una categoría, una ubicación y un organizador. Además, puede tener múltiples usuarios inscritos.
