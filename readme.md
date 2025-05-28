@@ -80,7 +80,7 @@ Para garantizar la correcta gestión y persistencia de los datos, he diseñado u
 
 ### Diagrama entidad-relación
 
-A continuación se muestra el diagrama ER que representa la estructura lógica de la base de datos. En él se pueden observar las entidades principales (Usuarios, Organizadores, Eventos, Inscripciones, Categorías y Ubicaciones) y las relaciones entre ellas:
+A continuación se muestra el diagrama ER diseñado con la herramienta web **Draw.io** `https://draw.io/` que representa la estructura lógica de la base de datos. En él se pueden observar las entidades principales (Usuarios, Organizadores, Eventos, Inscripciones, Categorías y Ubicaciones) y las relaciones entre ellas:
 
 ![Diagrama ER](sql/diagrama-er.png)
 
