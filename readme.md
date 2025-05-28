@@ -76,9 +76,28 @@ El portal web tiene como objetivo facilitar la consulta y gestión de eventos re
 
 ## 3. Base de datos: diseño ER y script SQL
 
-* herramienta diagrama er
-* tablas y atributos
-* script create
+Para garantizar la correcta gestión y persistencia de los datos, he diseñado una base de datos relacional que refleja fielmente las necesidades del portal de eventos sostenibles. El diseño parte de un análisis previo de los requisitos y se apoya en un **diagrama entidad-relación (ER)** que facilita la comprensión de las relaciones entre las distintas entidades del sistema.
+
+### Diagrama entidad-relación
+
+A continuación se muestra el diagrama ER que representa la estructura lógica de la base de datos. En él se pueden observar las entidades principales (Usuarios, Organizadores, Eventos, Inscripciones, Categorías y Ubicaciones) y las relaciones entre ellas:
+
+![Diagrama ER](doc/diagrama-er.png)
+
+- **Usuarios** y **Organizadores**: Se gestionan como entidades separadas, cada una con sus propios atributos y restricciones. Los organizadores son los responsables de crear eventos, mientras que los usuarios pueden inscribirse en ellos.
+- **Eventos**: Cada evento está asociado a una categoría, una ubicación y un organizador. Además, puede tener múltiples usuarios inscritos.
+- **Inscripciones**: Representa la relación de muchos a muchos entre usuarios y eventos, almacenando la fecha de inscripción y asegurando que un usuario no pueda inscribirse dos veces al mismo evento.
+- **Categorías**: Permite clasificar los eventos (taller, conferencia y actividad).
+- **Ubicaciones**: Gestiona tanto eventos presenciales como online, diferenciando el tipo de ubicación y almacenando información relevante como dirección, ciudad y código postal.
+
+### Características principales del modelo
+
+- **Integridad referencial**: Todas las relaciones están implementadas mediante claves foráneas, asegurando la coherencia de los datos.
+- **Restricciones de unicidad**: El correo electrónico y el teléfono son únicos tanto para usuarios como para organizadores, evitando duplicidades.
+- **Persistencia de inscripciones**: La tabla intermedia `Inscripciones` garantiza que cada usuario solo pueda inscribirse una vez en cada evento.
+- **Flexibilidad en ubicaciones**: La entidad `Ubicaciones` permite gestionar tanto eventos online como presenciales de forma unificada.
+
+> **Nota:** El diseño y la implementación de la base de datos están redactados en el archivo [`sql/baseDeDatos.sql`](sql/baseDeDatos.sql) y el diagrama ER se encuentra en [`doc/diagrama-er.png`](doc/diagrama-er.png). Para más detalles sobre las entidades y sus atributos, puedes consultar el documento [`Entidades_Eventos_Sostenibles.pdf`](sql/Entidades_Eventos_Sostenibles.pdf).
 
 ---
 
