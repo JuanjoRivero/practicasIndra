@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Portal de Eventos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Portal de Eventos Sostenibles</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="html/eventos.html">Eventos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Bienvenido/a</h2>
+            <p>Descubre los eventos más destacados de nuestro centro de Formación Profesional.</p>
+        </section>
+        <section id="carrusel" class="carrusel">
+            <h2>Eventos destacados</h2>
+            <div class="slides">
+                <article class="slide activo">
+                    <h3>Escape Room Educativo</h3>
+                    <div class="info">
+                        <img src="images/evento7.jpg" alt="Escape Room Educativo">
+                        <p>Pon a prueba tus conocimientos y habilidades en equipo.</p>
+                        <a href="html/evento7.html" class="btn-evento">Ver evento</a>
+                    </div>
+                </article>
+                <article class="slide">
+                    <h3>Conferencia: Inteligencia Artificial</h3>
+                    <div class="info">
+                        <img src="images/evento5.jpg" alt="Conferencia IA">
+                        <p>Expertos debaten sobre el futuro de la IA en la educación.</p>
+                        <a href="html/evento5.html" class="btn-evento">Ver evento</a>
+                    </div>
+                </article>
+                <article class="slide">
+                    <h3>Taller de Robótica Educativa</h3>
+                    <div class="info">
+                        <img src="images/evento1.jpg" alt="Taller de Robótica">
+                        <p>Aprende a programar y montar robots desde cero.</p>
+                        <a href="html/evento1.html" class="btn-evento">Ver evento</a>
+                    </div>
+                </article>
+            </div>
+            <button id="anterior" class="carrusel-btn">&#10094;</button>
+            <button id="siguiente" class="carrusel-btn">&#10095;</button>
+            <div class="indicadores">
+                <span class="indicador activo"></span>
+                <span class="indicador"></span>
+                <span class="indicador"></span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Portal de Eventos FP  |  Juan José Rivero Lorido</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
