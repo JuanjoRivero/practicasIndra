@@ -62,9 +62,6 @@ El portal web tiene como objetivo facilitar la consulta y gestión de eventos re
 - **Filtro de eventos**  
   En la página de listado, el filtro por tipo de evento está implementado en JavaScript puro, proporcionando una experiencia fluida y sin recargas. El usuario puede alternar entre talleres, conferencias y actividades con un solo clic.
 
-- **Diseño responsive y accesible**  
-  Todo el portal está maquetado con HTML5 y CSS3, asegurando que se visualiza correctamente en cualquier dispositivo (ordenador, tablet, móvil) y siguiendo buenas prácticas de accesibilidad.
-
 - **Imágenes y recursos**  
   Todas las imágenes de los eventos están almacenadas en la carpeta `images` y se referencian correctamente en cada página, aportando un aspecto visual atractivo y profesional.
 
