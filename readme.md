@@ -40,9 +40,40 @@ Además, el proyecto exige la generación de evidencias gráficas del proceso y 
 
 ## 2. Lenguaje de marcas: HTML, CSS y JavaScript
 
-* Página principal con presentación y carrusel de eventos destacados.
-* Listado de eventos con tabla o tarjetas.
-* Página de detalle de cada evento.
+El portal web tiene como objetivo facilitar la consulta y gestión de eventos relacionados con la sostenibilidad, permitiendo a los usuarios descubrir talleres, conferencias y actividades de interés, así como acceder a toda la información relevante de cada uno de ellos de forma clara y atractiva.
+
+### Estructura y propósito de las páginas
+
+- **Página principal (`index.html`)**  
+  Es la carta de presentación del portal. Incluye una breve introducción sobre el objetivo de la plataforma y un carrusel visual con los eventos más destacados, pensado para captar la atención del usuario desde el primer momento y animarle a explorar el resto de secciones.
+
+- **Listado de eventos (`eventos.html`)**  
+  Muestra todos los eventos disponibles en formato de tarjetas, cada una con imagen, nombre, fecha, tipo y modalidad.  
+  Incluye un sistema de filtrado dinámico por tipo de evento (taller, conferencia, actividad), implementado en JavaScript, que permite al usuario encontrar fácilmente los eventos que más le interesan sin recargar la página.
+
+- **Detalle de evento (`evento1.html`, `evento2.html`, ..., `evento9.html`)**  
+  Cada evento cuenta con su propia página de detalle, donde se muestra la imagen, nombre, fecha, tipo, modalidad, dirección, descripción, organizador y duración. Esto permite al usuario consultar toda la información relevante de un vistazo y decidir si desea inscribirse o participar.
+
+### Funcionalidades destacadas
+
+- **Carrusel de eventos destacados**  
+  En la página principal, el carrusel permite navegar visualmente entre los eventos más importantes, mejorando la experiencia de usuario y la visibilidad de los eventos prioritarios.
+
+- **Filtro de eventos**  
+  En la página de listado, el filtro por tipo de evento está implementado en JavaScript puro, proporcionando una experiencia fluida y sin recargas. El usuario puede alternar entre talleres, conferencias y actividades con un solo clic.
+
+- **Diseño responsive y accesible**  
+  Todo el portal está maquetado con HTML5 y CSS3, asegurando que se visualiza correctamente en cualquier dispositivo (ordenador, tablet, móvil) y siguiendo buenas prácticas de accesibilidad.
+
+- **Imágenes y recursos**  
+  Todas las imágenes de los eventos están almacenadas en la carpeta `images` y se referencian correctamente en cada página, aportando un aspecto visual atractivo y profesional.
+
+- **Estilos centralizados (`css/style.css`)**  
+  El diseño visual se gestiona desde un único archivo CSS, donde se definen los estilos para la maquetación, las tarjetas de eventos, el detalle de cada evento y la adaptación responsive.
+
+- **Interactividad (`js/script.js`)**  
+  El filtrado de eventos y otras pequeñas interacciones se realizan con JavaScript, mejorando la experiencia de usuario sin recargar la página.
+
 
 ---
 
