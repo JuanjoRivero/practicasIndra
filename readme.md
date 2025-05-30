@@ -208,5 +208,10 @@ Gracias a esta organización, he podido gestionar el desarrollo de forma eficien
 
 ## 7. Capturas y evidencias
 
-* `portal_eventos_sostenibles.jpg`: Es la vista final del portal web.
-* `grafo_ramas_git.jpg`: Estructura de ramas usada en Git.
+ `portal_eventos_sostenibles.jpg`: Es la vista final del portal web:
+
+  ![PORTAL DE EVENTOS](portal_eventos_sostenibles.jpg)
+
+ `grafo_ramas_git.jpg`: Estructura de ramas usada en Git:
+
+  ![GRAFO DE RAMAS](grafo_ramas_git.jpg)
