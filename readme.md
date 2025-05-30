@@ -172,11 +172,37 @@ Para garantizar un entorno controlado y reproducible, he realizado la instalaci�
 
 ## 6. Entorno de desarrollo y control de versiones (Git/GitHub)
 
-*Explica:*
+Desde el inicio del proyecto he apostado por un entorno de desarrollo profesional y organizado, utilizando **Git** como sistema de control de versiones y **GitHub** como plataforma de alojamiento remoto. Esto me ha permitido trabajar de forma estructurada, mantener un historial claro de los cambios y facilitar la colaboración y revisión del código.
 
-* Creacion de repo
-* Ramas
-* organizacion del repo
+### Creación y configuración del repositorio
+
+El primer paso fue crear un repositorio público en GitHub, donde he ido subiendo todos los archivos del proyecto desde el principio. Inicialicé el repositorio localmente con `git init` y realicé el primer commit con la estructura básica de carpetas y archivos principales (HTML, CSS, JS, SQL, documentación, etc.).
+
+### Organización mediante ramas
+
+Para mantener el proyecto limpio y bien estructurado, he seguido una estrategia de ramas muy clara y adaptada a las distintas áreas del desarrollo. Las ramas principales que he creado y utilizado han sido:
+
+- **main**: Rama principal y estable, donde solo se fusionan funcionalidades ya probadas y revisadas y se hacen updates al readme.
+- **bbdd**: Rama dedicada exclusivamente al desarrollo y pruebas de la base de datos, incluyendo el diseño del modelo, el script SQL y la documentación asociada.
+- **lenguaje_de_marca**: Rama centrada en todo lo relacionado con HTML, CSS y JavaScript, es decir, la parte visual y de interacción del portal web.
+- **sistemas_informaticos**: Rama destinada a la configuración del entorno de desarrollo, pruebas de despliegue, documentación de la máquina virtual y del servidor web.
+- **programacion**: Rama donde he desarrollado toda la lógica de programación orientada a objetos, la gestión de entidades y la implementación de la aplicación en Java.
+- **entorno**: Rama en la que actualizo el README con la información pertinente sobre el uso de Git/Github
+
+Esta organización me ha permitido trabajar de forma modular, avanzar en paralelo en diferentes aspectos del proyecto y evitar conflictos entre funcionalidades. Además, facilita la revisión y el seguimiento de cada parte del desarrollo.
+
+El grafo de ramas (`grafo_ramas_git.jpg`) incluido en la documentación refleja visualmente cómo ha evolucionado el proyecto y cómo se han ido integrando los distintos módulos en la rama principal.
+
+### Buenas prácticas y seguimiento
+
+Durante todo el proceso he seguido buenas prácticas de control de versiones:
+
+- Commits frecuentes y descriptivos, explicando claramente cada cambio realizado.
+- Uso de `.gitignore` para evitar subir archivos temporales o dependencias innecesarias.
+- Sincronización periódica con el repositorio remoto en GitHub, asegurando la copia de seguridad y la trazabilidad del trabajo.
+- Documentación de cada avance relevante en los mensajes de commit y en el propio README.
+
+Gracias a esta organización, he podido gestionar el desarrollo de forma eficiente, detectar y corregir errores rápidamente y mantener siempre una versión funcional y actualizada del proyecto.
 
 ---
 
