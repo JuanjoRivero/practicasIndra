@@ -143,9 +143,30 @@ También he agregado ciertas dependencias al **pom.xml**:
 
 ## 5. Sistemas informáticos: instalación de Windows 10 y servidor web
 
-* VIRTUALBOX
-* INSTALACION WIN10 PRO
-* XAMPP - DOCKER
+Para garantizar un entorno controlado y reproducible, he realizado la instalación de **Windows 10 PRO** en una máquina virtual, sobre la que posteriormente he desplegado el servidor web necesario para el funcionamiento del portal.
+
+### Instalación de la máquina virtual con Windows 10
+
+1. **Descarga de la ISO**: Se ha descargado la imagen oficial de Windows 10 PRO desde el sitio web de Microsoft.
+2. **Creación de la máquina virtual**: Utilizando **VirtualBox** (aunque puede emplearse VMware u otro software de virtualización), se ha creado una nueva máquina virtual con los siguientes parámetros:
+   - Asignación de 4 GB de RAM.
+   - Disco duro virtual de 50 GB en formato VDI.
+   - Configuración de red en modo NAT para permitir el acceso a Internet.
+3. **Instalación del sistema operativo**: Se ha montado la ISO y seguido el asistente de instalación de Windows 10, configurando la cuenta de usuario y las opciones básicas del sistema.
+4. **Configuración inicial**: Tras la instalación, se han aplicado las actualizaciones de Windows y configurado el idioma, zona horaria y otras preferencias.
+
+### Instalación y configuración del servidor web
+
+1. **Instalación de XAMPP**: Para facilitar el despliegue y pruebas del portal, se ha instalado el paquete **XAMPP** (que incluye Apache, MySQL y PHP) en la máquina virtual.
+2. **Configuración de Apache**:
+   - Se ha iniciado el servicio Apache desde el panel de control de XAMPP.
+   - Se ha verificado el funcionamiento accediendo a `http://localhost` desde el navegador de la máquina virtual.
+3. **Despliegue del portal web**:
+   - Los archivos del portal se han copiado a la carpeta `htdocs` de XAMPP.
+   - Se ha comprobado el acceso al portal desde el navegador, asegurando que todas las rutas y recursos funcionen correctamente.
+4. **Acceso desde el equipo anfitrión** (opcional): Configurando la red en modo puente, es posible acceder al portal desde el equipo principal usando la IP de la máquina virtual.
+
+> **Nota:** Se han realizado capturas de pantalla durante el proceso de instalación y despliegue, que se incluyen en el apartado de documentacion.
 
 ---
 
